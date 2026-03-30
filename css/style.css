@@ -14,13 +14,6 @@
 
 /* Estilos generales */
 
-/*
-::before y ::after son pseudo-elementos en CSS que te permiten
-insertar contenido antes o después del contenido real de un
-elemento HTML. Estos pseudo-elementos se utilizan para agregar
-elementos o estilos decorativos a tus páginas web sin necesidad
-de modificar el contenido HTML directamente.
-*/
 *,
 *::before,
 *::after {
@@ -29,8 +22,6 @@ de modificar el contenido HTML directamente.
   box-sizing: border-box;
 }
 
-/* se utiliza para especificar el comportamiento de desplazamiento
-suave (smooth scrolling) en una página web */
 html {
   scroll-behavior: smooth;
 }
